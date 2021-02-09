@@ -1,0 +1,71 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Slack API",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "slack.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/api/users.info": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "User Info",
+        "description": "User Info",
+        "operationId": "UserInfo",
+        "parameters": [
+          {
+            "name": "scope",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "default": "users:read",
+            "x-ms-visibility": "internal"
+          },
+          {
+            "name": "user",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "x-ms-visibility": "important"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "undefined": {
+      "type": "oauth2",
+      "flow": "accessCode",
+      "authorizationUrl": "https://slack.com/oauth/%7BApiVersion%7Dauthorize",
+      "tokenUrl": "https://slack.com/api/oauth.v2.access",
+      "scopes": {
+        "users:read": "users:read",
+        "users:read.email": "users:read.email"
+      }
+    }
+  },
+  "security": [
+    {
+      "undefined": [
+        "users:read",
+        "users:read.email"
+      ]
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,163 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Badgr",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "api.badgr.io",
+  "basePath": "/v2",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/users/": {},
+    "/users/self": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Get Self",
+        "description": "Get Self",
+        "operationId": "GetSelf",
+        "parameters": []
+      }
+    },
+    "/issuers": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "GetIssuers",
+        "description": "GetIssuers",
+        "operationId": "GetIssuers",
+        "parameters": []
+      }
+    },
+    "/assertions/{entity_id}": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Get Single Assertion",
+        "description": "Get Single Assertion",
+        "operationId": "GetSingleAssertion",
+        "parameters": [
+          {
+            "name": "entity_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/badgeclasses/{entity_id}/assertions": {
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Issue an Assertion to a single recipient",
+        "description": "Issue an Assertion to a single recipient",
+        "operationId": "IssueAnAssertionToASingleRecipient",
+        "parameters": [
+          {
+            "name": "entity_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {},
+              "x-ms-visibility": "important"
+            },
+            "x-ms-visibility": "important"
+          }
+        ]
+      }
+    },
+    "/issuers/{entity_id}/assertions": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "parameters": [
+          {
+            "name": "entity_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "summary": "Get a list of Assertions for a single Issuer",
+        "description": "Get a list of Assertions for a single Issuer",
+        "operationId": "GetAListOfAssertionsForASingleIssuer"
+      }
+    },
+    "/issuers/{entity_id}/badgeclasses": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "parameters": [
+          {
+            "name": "entity_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "summary": "Get a list of BadgeClasses for a single Issuer",
+        "description": "Get a list of BadgeClasses for a single Issuer",
+        "operationId": "GetAListOfBadgeClassesForASingleIssuer"
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "undefined": {
+      "type": "oauth2",
+      "flow": "accessCode",
+      "authorizationUrl": "https://badgr.com/auth/oauth2/authorize",
+      "tokenUrl": "https://api.badgr.io/o/token",
+      "scopes": {
+        "rw:profile rw:issuer rw:backpack": "rw:profile rw:issuer rw:backpack"
+      }
+    }
+  },
+  "security": [
+    {
+      "undefined": [
+        "rw:profile rw:issuer rw:backpack"
+      ]
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,112 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Slack Blocks",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "hooks.slack.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/services/{workplace}/{channel}/{app}": {
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Send to Incoming Webhook",
+        "description": "Send to Incoming Webhook",
+        "operationId": "SendToIncomingWebhook",
+        "parameters": [
+          {
+            "name": "workplace",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "channel",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "app",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "blocks": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "type": {
+                        "type": "string",
+                        "description": "type"
+                      },
+                      "text": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "description": "type"
+                          },
+                          "text": {
+                            "type": "string",
+                            "description": "text"
+                          }
+                        },
+                        "description": "text"
+                      },
+                      "accessory": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "description": "type"
+                          },
+                          "image_url": {
+                            "type": "string",
+                            "description": "image_url"
+                          },
+                          "alt_text": {
+                            "type": "string",
+                            "description": "alt_text"
+                          }
+                        },
+                        "description": "accessory"
+                      }
+                    }
+                  },
+                  "description": "blocks"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "/api/users.info": {}
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {},
+  "security": [],
+  "tags": []
+}

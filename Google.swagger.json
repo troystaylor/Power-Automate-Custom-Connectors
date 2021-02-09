@@ -1,0 +1,69 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Google Suite",
+    "description": "Google Suite"
+  },
+  "host": "www.googleapis.com",
+  "basePath": "/admin/directory",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/manage/environments/Default-e43e0a6b-ac26-4968-8029-15ac7adeb8ca/": {},
+    "/v1/users": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Users",
+        "operationId": "Users",
+        "x-ms-visibility": "important",
+        "parameters": [
+          {
+            "name": "domain",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "maxResults",
+            "in": "query",
+            "required": false,
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "undefined": {
+      "type": "oauth2",
+      "flow": "accessCode",
+      "authorizationUrl": "https://accounts.google.com/o/oauth2/v2/auth",
+      "tokenUrl": "https://oauth2.googleapis.com/token",
+      "scopes": {
+        "https://www.googleapis.com/auth/admin.directory.user": "https://www.googleapis.com/auth/admin.directory.user"
+      }
+    }
+  },
+  "security": [
+    {
+      "undefined": [
+        "https://www.googleapis.com/auth/admin.directory.user"
+      ]
+    }
+  ],
+  "tags": []
+}

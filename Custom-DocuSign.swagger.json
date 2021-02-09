@@ -1,0 +1,116 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Custom DocuSign",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "na3.docusign.net",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/restapi/v2.1/accounts/{accountId}/users/{userId}": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Get User",
+        "description": "Get User",
+        "operationId": "GetUser",
+        "x-ms-visibility": "important",
+        "parameters": [
+          {
+            "name": "accountId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "default": "application/json",
+            "x-ms-visibility": "internal"
+          }
+        ]
+      }
+    },
+    "/restapi/v2.1/accounts/{account_id}/envelopes": {
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Send Template with Tab(Field) Values",
+        "description": "Send Template with Tab(Field) Values",
+        "operationId": "SendTemplateTab",
+        "parameters": [
+          {
+            "name": "account_id",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "x-ms-visibility": "important"
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "default": "application/json",
+            "x-ms-visibility": "internal"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {},
+              "x-ms-visibility": "important"
+            },
+            "x-ms-visibility": "important"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "oauth2_auth": {
+      "type": "oauth2",
+      "flow": "accessCode",
+      "authorizationUrl": "https://account.docusign.com/oauth/auth",
+      "tokenUrl": "https://account.docusign.com/oauth/token",
+      "scopes": {
+        "envelope": "envelope"
+      }
+    }
+  },
+  "security": [
+    {
+      "oauth2_auth": [
+        "envelope"
+      ]
+    }
+  ],
+  "tags": []
+}
