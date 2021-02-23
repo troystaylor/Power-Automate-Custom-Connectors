@@ -1,0 +1,2712 @@
+{
+    "type": "object",
+    "properties": {
+        "vid": {
+            "type": "integer"
+        },
+        "canonical-vid": {
+            "type": "integer"
+        },
+        "merged-vids": {
+            "type": "array"
+        },
+        "portal-id": {
+            "type": "integer"
+        },
+        "is-contact": {
+            "type": "boolean"
+        },
+        "profile-token": {
+            "type": "string"
+        },
+        "profile-url": {
+            "type": "string"
+        },
+        "properties": {
+            "type": "object",
+            "properties": {
+                "hs_all_accessible_team_ids": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_email_last_open_date": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_last_url": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_legal_basis": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {
+                                        "type": "string"
+                                    },
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "num_unique_conversion_events": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "county": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_revenue": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "createdate": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_calculated_phone_number_country_code": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "recent_conversion_event_name": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_email_last_send_date": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hubspot_owner_id": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_num_page_views": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "state": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "total_students": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "fax": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "zip": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_email_last_email_name": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_email_first_send_date": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_ip_timezone": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "first_conversion_date": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_lifecyclestage_subscriber_date": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_average_page_views": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "lastname": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_all_contact_vids": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_predictivecontactscore_v2": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {
+                                        "type": "string"
+                                    },
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "phone": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_is_contact": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "num_conversion_events": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_object_id": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "currentlyinworkflow": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_num_event_completions": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_email_open": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_lifecyclestage_lead_date": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "first_conversion_event_name": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_is_unworked": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "firstname": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "city": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ip_state": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_all_team_ids": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ip_country": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_social_num_broadcast_clicks": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_last_timestamp": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_num_visits": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ip_state_code": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_marketable_until_renewal": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_social_linkedin_clicks": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hubspot_team_id": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_last_visit_timestamp": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_marketable_status": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_source": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_email_first_open_date": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_searchable_calculated_phone_number": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_email_domain": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "company": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_all_owner_ids": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_calculated_phone_number": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "email": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_first_url": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "address": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ip_country_code": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "jobtitle": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_first_visit_timestamp": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_first_timestamp": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "lastmodifieddate": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_social_google_plus_clicks": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_last_referrer": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_calculated_form_submissions": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_email_delivered": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_user_ids_of_all_owners": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_predictivescoringtier": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {
+                                        "type": "string"
+                                    },
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_social_facebook_clicks": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hubspot_owner_assigneddate": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "recent_conversion_date": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_source_data_2": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_social_twitter_clicks": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_analytics_source_data_1": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "lifecyclestage": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": "string"
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_email_sends_since_last_engagement": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {},
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "hs_lead_status": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "source-type": {
+                                        "type": "string"
+                                    },
+                                    "source-id": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "source-label": {},
+                                    "timestamp": {
+                                        "type": "integer"
+                                    },
+                                    "selected": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "form-submissions": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "conversion-id": {
+                        "type": "string"
+                    },
+                    "timestamp": {
+                        "type": "integer"
+                    },
+                    "form-id": {
+                        "type": "string"
+                    },
+                    "portal-id": {
+                        "type": "integer"
+                    },
+                    "page-url": {
+                        "type": "string"
+                    },
+                    "content-type": {
+                        "type": "string"
+                    },
+                    "page-title": {
+                        "type": "string"
+                    },
+                    "page-id": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "form-type": {
+                        "type": "string"
+                    },
+                    "contact-associated-by": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "meta-data": {
+                        "type": "array"
+                    }
+                }
+            }
+        },
+        "list-memberships": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "static-list-id": {
+                        "type": "integer"
+                    },
+                    "internal-list-id": {
+                        "type": "integer"
+                    },
+                    "timestamp": {
+                        "type": "integer"
+                    },
+                    "vid": {
+                        "type": "integer"
+                    },
+                    "is-member": {
+                        "type": "boolean"
+                    }
+                }
+            }
+        },
+        "identity-profiles": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "vid": {
+                        "type": "integer"
+                    },
+                    "is-deleted": {
+                        "type": "boolean"
+                    },
+                    "is-contact": {
+                        "type": "boolean"
+                    },
+                    "pointer-vid": {
+                        "type": "integer"
+                    },
+                    "previous-vid": {
+                        "type": "integer"
+                    },
+                    "linked-vids": {
+                        "type": "array"
+                    },
+                    "saved-at-timestamp": {
+                        "type": "integer"
+                    },
+                    "deleted-changed-timestamp": {
+                        "type": "integer"
+                    },
+                    "identities": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "type": "string"
+                                },
+                                "value": {
+                                    "type": "string"
+                                },
+                                "timestamp": {
+                                    "type": "integer"
+                                },
+                                "is-primary": {
+                                    "type": "boolean"
+                                },
+                                "source": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "merge-audits": {
+            "type": "array"
+        },
+        "associated-owner": {
+            "type": "object",
+            "properties": {
+                "first-name": {
+                    "type": "string"
+                },
+                "last-name": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "hubspot-user-id": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}
